@@ -25,7 +25,6 @@ void loop() {
 
       if (pin_number >= 0 && pin_number < numAnalogPins) {
         int value = analogRead(pin_number);
-        delay(100);
         Serial.print("A");
         Serial.print(pin_number);
         Serial.print(":");
@@ -42,7 +41,6 @@ void loop() {
         if (pin_number == 7){
           float humidity = dht.readHumidity();
           float temperature = dht.readTemperature();
-          delay(100);
           Serial.print("D");
           Serial.print(pin_number);
           Serial.print(":");
@@ -54,6 +52,5 @@ void loop() {
     }
   }
 
-  delay(100);
 
 }
