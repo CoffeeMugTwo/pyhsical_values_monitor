@@ -1,0 +1,55 @@
+{
+  "files" : [ {
+    "remoteURL" : "https://downloads.arduino.cc/libraries/library_index.json.gz",
+    "localPath" : "C:\\Users\\Stefa\\OneDrive\\Dokumente\\ArduinoData\\cache\\downloads.arduino.cc\\libraries\\library_index.json.gz",
+    "eTag" : "c2e73b8e6e1c4ba3a70ebc7d441a9391",
+    "md5" : "MD5:c2e73b8e6e1c4ba3a70ebc7d441a9391",
+    "createdAt" : "2020-04-22T21:12:39.97",
+    "cacheControl" : {
+      "maxAge" : 14400,
+      "mustRevalidate" : false,
+      "noCache" : false,
+      "noStore" : false
+    },
+    "expires" : "2020-04-23T01:12:39.970"
+  }, {
+    "remoteURL" : "https://downloads.arduino.cc/packages/package_index.json.sig",
+    "localPath" : "C:\\Users\\Stefa\\OneDrive\\Dokumente\\ArduinoData\\cache\\downloads.arduino.cc\\packages\\package_index.json.sig",
+    "eTag" : "1d601242706b48fb2b95a9165330807d",
+    "md5" : "MD5:1d601242706b48fb2b95a9165330807d",
+    "createdAt" : "2020-04-22T21:12:39.617",
+    "cacheControl" : {
+      "maxAge" : 3600,
+      "mustRevalidate" : false,
+      "noCache" : false,
+      "noStore" : false
+    },
+    "expires" : "2020-04-22T22:12:39.617"
+  }, {
+    "remoteURL" : "https://downloads.arduino.cc/libraries/library_index.json.sig",
+    "localPath" : "C:\\Users\\Stefa\\OneDrive\\Dokumente\\ArduinoData\\cache\\downloads.arduino.cc\\libraries\\library_index.json.sig",
+    "eTag" : "109016ee55fc47f561a1aa8fb101e5a0",
+    "md5" : "MD5:109016ee55fc47f561a1aa8fb101e5a0",
+    "createdAt" : "2020-04-22T21:12:40.174",
+    "cacheControl" : {
+      "maxAge" : 14400,
+      "mustRevalidate" : false,
+      "noCache" : false,
+      "noStore" : false
+    },
+    "expires" : "2020-04-23T01:12:40.174"
+  }, {
+    "remoteURL" : "https://downloads.arduino.cc/packages/package_index.json",
+    "localPath" : "C:\\Users\\Stefa\\OneDrive\\Dokumente\\ArduinoData\\cache\\downloads.arduino.cc\\packages\\package_index.json",
+    "eTag" : "c6204a924d0c49bd87097d95a17e0061",
+    "md5" : "MD5:c6204a924d0c49bd87097d95a17e0061",
+    "createdAt" : "2020-04-22T21:12:39.483",
+    "cacheControl" : {
+      "maxAge" : 3600,
+      "mustRevalidate" : false,
+      "noCache" : false,
+      "noStore" : false
+    },
+    "expires" : "2020-04-22T22:12:39.483"
+  } ]
+}

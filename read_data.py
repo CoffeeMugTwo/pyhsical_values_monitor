@@ -5,6 +5,8 @@ import time
 import logging
 import sys
 
+import pandas as pd
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -18,9 +20,9 @@ logging.info("Start reading data from Arduino")
 ser = serial.Serial("/dev/ttyACM0", 9600, timeout=1)
 ser.flush()
 
-with open("/home/thomas/projects/grow_cabinet/data.csv", "a") as f:
+with open("data.csv", "a") as f:
     writer = csv.writer(f)
-    writer.writerow(["Timestamp", "Temperature", "Humidity", "Light Value"])
+    writer.writerow(["Timestamp[unix]", "Temperature[C]", "Humidity[%]", "Light Value[a.u.]"])
 
     while True:
         if ser.in_waiting > 0:
