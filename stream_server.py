@@ -76,7 +76,7 @@ def streamlit_app():
             y_label="Light Value[a.u.]",
         )
 
-        time.sleep(5)  # Update every 5 seconds
+        time.sleep(60)  # Update every 5 seconds
         print("alive")
 
 

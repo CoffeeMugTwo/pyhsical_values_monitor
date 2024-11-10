@@ -8,7 +8,7 @@ import time
 
 import serial
 
-READOUT_FREQUENCY_S = 2
+READOUT_FREQUENCY_S = 60
 
 logging.basicConfig(
     level=logging.INFO,
